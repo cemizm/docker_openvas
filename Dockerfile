@@ -13,6 +13,6 @@ RUN /usr/sbin/openvasmd --user=admin --new-password=$OPENVAS_PASSWORD
 # copy start script
 ADD ./start.sh /start.sh
 
-EXPOSE 9390 9392
+EXPOSE 9390 9391 9392
 
 CMD /start.sh
